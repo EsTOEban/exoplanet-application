@@ -1,0 +1,14 @@
+{
+  "pl_hostname": "HD 142022 A",
+  "pl_name": "HD 142022 A b",
+  "pl_discmethod": "Radial Velocity",
+  "pl_controvflag": 0,
+  "rowupdate": "2018-09-06",
+  "pl_facility": "La Silla Observatory",
+  "pl_disc": 2005,
+  "pl_locale": "Ground",
+  "pl_disc_refname": "Eggenberger et al. 2006",
+  "pl_telescope": "1.2 m Leonhard Euler Telescope",
+  "pl_instrument": "CORALIE Spectrograph",
+  "pl_status": 3
+}
