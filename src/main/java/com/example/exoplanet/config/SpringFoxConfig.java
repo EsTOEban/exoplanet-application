@@ -11,12 +11,12 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class SpringFoxConfig {
 
-        @Bean
-        public Docket dataPopulationApi() {
-                return new Docket(DocumentationType.SWAGGER_2)
-                        .groupName("data")
-                        .select()
-                        .paths(PathSelectors.ant("/data/**"))
-                        .build();
-        }
+    @Bean
+    public Docket dataPopulationApi() {
+        return new Docket(DocumentationType.SWAGGER_2)
+            .groupName("data")
+            .select()
+            .paths(PathSelectors.ant("/data/**"))
+            .build();
+    }
 }
